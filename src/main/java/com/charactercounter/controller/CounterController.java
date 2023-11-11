@@ -23,7 +23,6 @@ public class CounterController {
     @ApiResponses({
             @ApiResponse(responseCode = "200", description = "OK", content = @Content(
                     array = @ArraySchema(schema = @Schema(implementation = String.class)))),
-            @ApiResponse(responseCode = "204", description = "No Content", content = @Content(schema = @Schema())),
     })
     @GetMapping("/{string}")
     public String getCharacterCounter(@PathVariable(name = "string")
