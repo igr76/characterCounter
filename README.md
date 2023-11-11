@@ -32,7 +32,7 @@
 
 - Java 17
 - Spring Boot 3.1.5
-- Liombok
+- Lombok
 
 
 
